@@ -1,0 +1,10 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.Br0ski777/webhook-tester",
+  "title": "Webhook Tester API",
+  "description": "Test webhook endpoints — send requests, measure latency, validate responses. x402 micropayment.",
+  "version": "1.0.0",
+  "websiteUrl": "https://github.com/Br0ski777/webhook-tester-x402",
+  "repository": { "url": "https://github.com/Br0ski777/webhook-tester-x402", "source": "github" },
+  "remotes": [{ "type": "sse", "url": "https://PLACEHOLDER.up.railway.app/mcp" }]
+}
