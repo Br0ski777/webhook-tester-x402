@@ -32,6 +32,65 @@ Do NOT use for web scraping -- use web_scrape_to_markdown instead. Do NOT use fo
         },
         required: ["url"],
       },
+      outputSchema: {
+          "type": "object",
+          "properties": {
+            "url": {
+              "type": "string",
+              "description": "URL tested"
+            },
+            "method": {
+              "type": "string",
+              "description": "HTTP method used"
+            },
+            "response": {
+              "type": "object",
+              "properties": {
+                "statusCode": {
+                  "type": "number"
+                },
+                "statusText": {
+                  "type": "string"
+                },
+                "headers": {
+                  "type": "object"
+                },
+                "body": {
+                  "type": "string"
+                },
+                "contentType": {
+                  "type": "string"
+                },
+                "bodySize": {
+                  "type": "number"
+                }
+              }
+            },
+            "latencyMs": {
+              "type": "number",
+              "description": "Response latency in ms"
+            },
+            "tls": {
+              "type": "boolean",
+              "description": "Whether HTTPS"
+            },
+            "redirected": {
+              "type": "boolean"
+            },
+            "finalUrl": {
+              "type": "string"
+            },
+            "success": {
+              "type": "boolean"
+            }
+          },
+          "required": [
+            "url",
+            "response",
+            "latencyMs",
+            "success"
+          ]
+        },
     },
   ],
 };
