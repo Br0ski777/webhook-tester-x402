@@ -12,7 +12,7 @@
   "remotes": [
     {
       "type": "sse",
-      "url": "https://webhook-tester-production-e956.up.railway.app/mcp"
+      "url": "https://webhook-tester-x402-production.up.railway.app/mcp"
     }
   ]
 }
