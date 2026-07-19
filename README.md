@@ -37,7 +37,7 @@ Any x402-aware client ([`@x402/fetch`](https://www.npmjs.com/package/@x402/fetch
 
 | Tool | Method | Path | Price | Description |
 |---|---|---|---|---|
-| `api_test_webhook` | POST | `/api/test` | $0.002 | Send a test request to a webhook URL and analyze the response |
+| `api_test_webhook` | POST | `/api/test` | $0.005 | Send a test request to a webhook URL and analyze the response |
 
 ### `api_test_webhook`
 
