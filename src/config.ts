@@ -9,7 +9,7 @@ export const API_CONFIG: ApiConfig = {
     {
       method: "POST",
       path: "/api/test",
-      price: "$0.002",
+      price: "$0.005",
       description: "Send a test request to a webhook URL and analyze the response",
       toolName: "api_test_webhook",
       toolDescription: `Use this when you need to test a webhook endpoint by sending a request with custom headers, body, and method. Returns full response data in JSON.
